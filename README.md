@@ -28,6 +28,8 @@ The project uploads the file requested in the test
   ### 🧭 API Documentation
 
   1 - Before running the application, you need to download the .csv file to your directory and put the file path in the source application.yml, in the parameters.path environment variable.
+  Path example: C:\\Users\\maiar\\teste\\exercise.csv
+  
   ![image](https://github.com/user-attachments/assets/4805a283-a8ab-40f4-9c52-bf36e7fa4f11)
 
   2 - When uploading the project, you first need to create a user in the POST user api. You can use swagger http://localhost:8080/swagger-ui/index.html#/ or you can use postman, with the curl below:
