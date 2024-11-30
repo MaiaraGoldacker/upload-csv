@@ -33,8 +33,6 @@ The project uploads the file requested in the test
   2 - When uploading the project, you first need to create a user in the POST user api. You can use swagger http://localhost:8080/swagger-ui/index.html#/ or you can use postman, with the curl below:
   Roles 1 and 2 give access to all functionalities, with role 1 giving permission to upload and delete(MANAGE_FORM), and role 2 giving permission to access GETs(CONSULT_FORM)
 
-
-  ```sh
   curl -X 'POST' \
   'http://localhost:8080/user' \
   -H 'accept: */*' \
@@ -44,10 +42,7 @@ The project uploads the file requested in the test
   "password": "admin",
   "rolesId": [
     1,2
-  ]
-
-}'
-```
+  ]}'
 
 3 - If you are accessing via swagger, you will need to add the username and password created in the 'Authorize' button as in the image below.
 
